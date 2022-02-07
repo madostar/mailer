@@ -1,0 +1,15 @@
+Step 1: Run the API from running the command: 'dotnet watch run'
+in the terminal inside the API folder
+
+Step 2: Run the client app by executing : 'npm run serve'
+in the terminal inside the mailer-client folder
+
+Step 3: To check API response use the address 'localhost:5000/api/messages/' in Swagger or Postman
+*You can also execute get and put requests for individual message ids*
+
+Step 4: To open the client app, go to the address 'localhost:8080' in your browser.
+
+-The main page shows you the username and how many unread messages
+-The second page takes you to the inbox of the user
+-When you click any message in the inbox it will take you to a separate page showing you that specific message
+-The home butoon in the header takes you to the main page
